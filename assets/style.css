@@ -17,6 +17,7 @@ h1 {
     background-color: #f7882f;
     color: #687a8f;
     margin-left: 20px;
+   
 }
 
 h2 {
@@ -27,15 +28,18 @@ h2 {
     background-color:#f7882f;
 }
 
+a{
+    text-decoration: none;  
+    color: #687a8f;
+}
+
 nav{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30px 100px ;   
 }
-a{
-    text-decoration: none;
-}
+
 ul li{
     list-style: none;
     display: inline-block; 
@@ -69,4 +73,53 @@ nav ul li a{
     background-size: cover;
     background-position: center;
    
+}
+
+.home span{
+    color: #687a8f;
+    text-shadow:4px 4px 4px #f7882f;
+
+}
+#banner{
+    font-size: 2em;
+    font-weight: 900;
+    line-height: 50px; 
+    position: relative;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 765px){
+    header{
+        flex-direction: column;
+        
+    }
+
+    h1{margin-top: 10px;
+    }
+
+    #banner {
+        margin-right: 100px;
+    }
+    
 }
