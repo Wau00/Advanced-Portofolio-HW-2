@@ -99,13 +99,15 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    padding-top: 30px;
+    padding-top: 30px;  
 }
 
 .about-me p {
     padding: 0 30px;
     line-height: 1,6;
     width: 90%;
+    color: #0e1817;
+    font-weight: 500;
 }
 .subtittle{
     border-right:5px solid #aa887e;
@@ -182,7 +184,8 @@ h3 {
 
 .Website{
     background-image: url(./images/Aboutme.png);
-    background-position: center top;
+    background-position: top;
+   
 }
 .Node{
 background-image: url(./images/Node.png);
@@ -195,6 +198,9 @@ background-image: url(./images/React.png);
 
 .Stack{
 background-image: url(./images/MERN.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-color: #0a0a0a;
 }
 
 
