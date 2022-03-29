@@ -50,10 +50,12 @@ ul li{
 nav ul li a{
     color: #f8501c;
     font-weight: 700;
+    transition: transform 250ms;
  }
  
  nav ul li a:hover{
      color:#fff;
+     transform: translateY(-5px) ; 
  }
 
  .button{
@@ -89,6 +91,8 @@ nav ul li a{
 }
 
 /* Main Body */
+
+/* About Me Section */
 .about-me{
     display: flex;
     justify-content: space-between;
@@ -112,6 +116,75 @@ nav ul li a{
     font-size: 48px;
     color: #1a2238;
 }
+
+/* Work Section */
+
+.work{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.work {
+    margin-top: 45px;
+    padding-top: 30px 0;
+    }
+
+.my-work-bigbox{
+    display: flex;
+    justify-content: center;
+    width:80%;
+    height: 500px;
+    
+}
+
+.my-work-smallbox{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 70%;
+    gap: 10px;
+}
+
+.Project{
+   display: flex; 
+   border:  2px solid #f8501c;
+   background-size: cover;
+   background-position: center;
+   opacity: 0.7 ;
+   transition: transform 250ms;
+}
+.Project:hover {
+    opacity: 1.0;
+    transform: translateY(-2px)
+}
+
+.Snippet{
+    background-image: url(./images/CSS\ SNIP.png);
+    background-position: center top;
+    grid-column: 1/ span 2;
+    grid-row: span 2;
+    
+}
+
+.Website{
+    background-image: url(./images/Aboutme.png);
+    background-position: center top;
+}
+.Node{
+background-image: url(./images/Node.png);
+
+}
+
+.React{
+background-image: url(./images/React.png);
+}
+
+.Stack{
+background-image: url(./images/MERN.png);
+}
+
+
+
 
 
 
