@@ -1,3 +1,5 @@
+
+/* General aspects */
 *{
    margin: 0;
    padding: 0;
@@ -6,31 +8,29 @@
    
 }
 
+/* Header */
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #687a8f;
+    background-color: #1a2238;
+    
 }
 
 h1 {
-    background-color: #f7882f;
-    color: #687a8f;
-    margin-left: 20px;
    
-}
-
-h2 {
-    padding-left: 74%;
-    color: #687a8f;  
-    border-style: solid;
-    border-width: 50px;
-    background-color:#f7882f;
+    margin-left: 20px;
+    background-color: #f8501c;
+    border-radius: 400px;
+    border: 7px solid #f8501c;
+    
 }
 
 a{
     text-decoration: none;  
-    color: #687a8f;
+    color: #9daaf2;
+    font-weight: 600;
 }
 
 nav{
@@ -47,7 +47,7 @@ ul li{
 }
 
 nav ul li a{
-    color: #f7882f;
+    color: #f8501c;
     font-weight: 700;
  }
  
@@ -56,13 +56,13 @@ nav ul li a{
  }
 
  .button{
-     color:#687a8f;
+     color: #9daaf2;
      font-size: 16px;
-     font-weight: 900;
+     font-weight: 500px;
      border-radius: 400px;
-     background-color: #f7882f;
-     border: 6px solid #f7882f;
-    display: inline-flex;
+     background-color:#f8501c;
+     border: 6px solid #f8501c;
+     display: inline-flex;
 
  }
 
@@ -76,10 +76,11 @@ nav ul li a{
 }
 
 .home span{
-    color: #687a8f;
-    text-shadow:4px 4px 4px #f7882f;
+    color: #9daaf2;
+    text-shadow:3px 3px 1px #1a2238;
 
 }
+
 #banner{
     font-size: 2em;
     font-weight: 900;
@@ -87,6 +88,11 @@ nav ul li a{
     position: relative;  
 }
 
+/* Main Body */
+
+h2{
+    
+}
 
 
 
